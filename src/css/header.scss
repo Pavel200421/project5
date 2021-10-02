@@ -1,0 +1,71 @@
+.header {
+  margin: 44px 88px;
+  display: flex;
+  flex-direction: row;
+
+  &__into {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    color: $black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 150%;
+    display: flex;
+    column-gap: 5px;
+
+    &_span {
+      background: url("../images/svg/Ellipse 21.svg");
+      display: block;
+      width: 28px;
+      height: 31px;
+    }
+  }
+
+  &__menu {
+    list-style-type: none;
+    display: flex;
+    column-gap: 45px;
+  }
+
+  &__list {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    transition: .3s;
+    }
+  &__link {
+    color: #969999;
+    text-decoration: none;
+    transition: .3s;
+
+    &:hover {
+      transition: .3s;
+      color: #35AFBF;
+    }
+  }
+  &__btn{
+    width: 120px;
+    height: 49px;
+    background: #35AFBF;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover{
+      background-color: blue;
+      color: white;
+      transition: 0.5s;
+
+    }
+  }
+}

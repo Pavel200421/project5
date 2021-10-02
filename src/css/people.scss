@@ -1,0 +1,17 @@
+.people{
+  padding: 120px 0 120px;
+  background: #E5E5E520;
+  &__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 135%;
+    text-align: center;
+    color: $black;
+    margin-bottom: 35px;
+  }
+  &__btn{
+    display: block;
+    margin: 0 auto;
+  }
+}

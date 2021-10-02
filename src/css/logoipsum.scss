@@ -1,0 +1,30 @@
+.logoipsum{
+  padding: 102px 0 100px;
+  background-color: #D1F4F9;
+  &__logo{
+   background: url("../images/Logo.png");
+    width: 154px;
+    height: 30px;
+    margin: 0 auto;
+  }
+  &__sub{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+    text-align: center;
+    color: $black;
+    margin-top: 50px;
+  }
+  &__block{
+    margin: 35px 0 0;
+    display: flex;
+    column-gap: 16px;
+    justify-content: center;
+  }
+  &__text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+}

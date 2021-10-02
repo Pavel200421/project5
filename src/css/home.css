@@ -1,0 +1,10 @@
+.home {
+  padding: 90px 0;
+  background: url("../images/home/Background.png") center/cover no-repeat;
+}
+.home__row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/*# sourceMappingURL=home.css.map */

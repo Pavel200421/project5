@@ -1,0 +1,43 @@
+.video {
+  padding: 125px 0 128px;
+  background: url("../images/video.png") center/cover no-repeat;
+
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+
+  &__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+  }
+&__bgc{
+  margin-left: 50%;
+  transform: translateX(-10%);
+}
+  &__film {
+    width: 93px;
+    height: 93px;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+    
+    &:hover{
+      transition: .4s;
+      background-color: lightskyblue;
+    }
+  }
+}

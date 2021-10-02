@@ -1,0 +1,110 @@
+.footer{
+   padding: 79px 0 39px;
+   background: #2C353E;
+   &__row{
+     display: flex;
+     column-gap: 85px;
+     border-bottom: 2px  solid rgba(255, 255, 255, 0.3);;
+   }
+   &__column{
+     display: flex;
+     flex-direction: column;
+   }
+   &__title{
+     font-style: normal;
+     font-weight: 600;
+     font-size: 21px;
+     line-height: 150%;
+     color: #FFFFFF;
+     margin-bottom: 15px;
+   }
+   &__sub{
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 160%;
+     color: #FFFFFF;
+     &-span{
+       font-style: normal;
+       font-weight : normal;
+       font-size: 38px;
+       line-height: 45px;
+       margin-right: 2px;
+     }
+     &-sup{
+       font-style: normal;
+       font-weight: normal;
+       font-size: 16px;
+       line-height: 160%;
+     }
+   }
+   &__menu{
+     list-style-type: none;
+     display: flex;
+     flex-direction: column;
+     row-gap: 15px;
+     margin: 15px 0 30px;
+     &-list{
+       font-style: normal;
+       font-weight: normal;
+       font-size: 16px;
+       line-height: 160%;
+       color: #FFFFFF70;
+     }
+   }
+   &__btn{
+     display: block;
+     width: 138px;
+     height: 49px;
+     background-color: transparent;
+     border: 2px solid rgba(255, 255, 255, 0.3);
+     border-radius: 12px;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 19px;
+     color: #FFFFFF;
+     cursor: pointer;
+     transition: .5s;
+     margin-bottom: 64px;
+     &:hover{
+       transition: .5s;
+       background-color: dimgrey;
+     }
+   }
+   &__row2{
+     margin-top: 40px;
+     display: flex;
+     column-gap: 325px
+   }
+   &__block2_1{
+     display: flex;
+     flex-direction: column;
+   }
+  &__menu2{
+    list-style-type: none;
+    display: flex;
+    column-gap: 35px;
+    margin-bottom: 12px;
+  }
+  &__list2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+  }
+  &__era{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.6;
+  }
+  &__menu3{
+    display: flex;
+    column-gap: 44px;
+    list-style-type: none;
+  }
+ }
