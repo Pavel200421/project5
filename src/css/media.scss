@@ -1,0 +1,900 @@
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+.container{
+  width: 100%;
+  max-width: 882px;
+  margin: 0 auto;
+}
+  .header{
+    margin: 50px 0 0;
+    &__btn{
+      transform: translateY(-25%);
+    }
+  }
+  .home{
+    padding: 90px 0 0;
+    &__row{
+      justify-content: space-between;
+      column-gap: 10px;
+    }
+    &__title{
+      font-size: 46px;
+    }
+    &__subtitle{
+      font-size: 19px;
+    }
+    &__img{
+      width: 420px;
+      height: 380px;
+    }
+  }
+  .service{
+   padding: 60px 0 66px;
+  }
+  .features{
+    padding: 61px 0 60px;
+    &__row{
+      justify-content: center;
+    }
+  }
+  .logoipsum{
+    padding: 62px 0 50px;
+    &__sub{
+      font-size: 26px;
+    }
+  }
+  .people{
+    padding:60px 0;
+  }
+  .footer{
+    padding: 36px 0 39px;
+    &__row{
+      column-gap: 50px;
+
+    }
+    &__title{
+      font-size: 19px;
+    }
+    &__menu-list{
+      white-space: nowrap;
+      font-size: 14px;
+    }
+    &__row2{
+      column-gap: 150px;
+    }
+    &__menu2{
+      white-space: nowrap;
+    }
+    &__list2{
+      font-size: 14px;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.container{
+  max-width: 668px;
+  width: 100%;
+  margin: 0 auto;
+}
+  .header{
+    margin: 50px 0 0;
+    position: relative;
+    &__menu{
+      display: none;
+    }
+    &__btn{
+      transform: translate(100%,-25%);
+    }
+    &__burger{
+      display: block;
+    }
+  }
+  .burger{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    display: none;
+    left: 0;
+    top: 0;
+    &__popup{
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #fff;
+      width: 200px;
+      height: 400px;
+    }
+    &__close {
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      cursor: pointer;
+
+      &::before {
+        content: '';
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 15px;
+        left: 0;
+        transform: rotate(45deg);
+        background-color: #000000;
+      }
+
+      &::after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 15px;
+        left: 0;
+        transform: rotate(-45deg);
+        background-color: #000000;
+      }
+    }
+  }
+  .home{
+    padding: 50px 0;
+    background: none;
+    &__column{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__title{
+      font-size: 28px;
+    }
+    &__subtitle{
+      font-size: 18px;
+    }
+    &__img{
+      width: 350px;
+      height: 320px;
+    }
+    &__btn{
+      width: 135px;
+      height: 52px;
+    }
+  }
+  .service{
+    padding: 60px 0 66px;
+    &__row2{
+      column-gap: 30px;
+    }
+    &__column2-title{
+      font-size: 32px;
+      white-space: nowrap;
+    }
+  }
+  .video{
+    padding: 62.5px 0 64px;
+    &__subtitle{
+      font-size: 14px;
+    }
+  }
+  .features{
+    padding: 60.5px 0 60px;
+    &__row{
+      column-gap: 40px;
+    }
+   &__sub{
+     font-size: 13px;
+
+   }
+  }
+  .logoipsum{
+    padding: 51px 0 50px;
+    &__sub{
+      font-size: 19.5px;
+    }
+  }
+  .people{
+    padding: 60px 0;
+    &__title{
+      font-size: 28px;
+    }
+  }
+  .footer{
+    padding: 36px 0 39px;
+    &__row{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    &__title{
+      font-size: 19px;
+    }
+    &__menu-list{
+      white-space: nowrap;
+      font-size: 14px;
+    }
+    &__row2{
+      flex-wrap: wrap;
+    }
+    &__menu2{
+      white-space: nowrap;
+    }
+    &__list2{
+      font-size: 13px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__menu3{
+      margin-top: 20px;
+    }
+  }
+}
+@media (min-width: 481px) and (max-width: 767px ) {
+  .container{
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .header{
+    margin: 50px 0 0;
+    position: relative;
+    &__menu{
+      display: none;
+    }
+    &__btn{
+      height: 40px;
+    }
+    &__burger{
+      display: block;
+      transform: translate(30%,0);
+    }
+
+  }
+  .overlay{
+    &__close{
+      right: -30px;
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .burger{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    display: none;
+    left: 0;
+    top: 0;
+    &__popup{
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #fff;
+      width: 200px;
+      height: 400px;
+    }
+    &__close {
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      cursor: pointer;
+
+      &::before {
+        content: '';
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 15px;
+        left: 0;
+        transform: rotate(45deg);
+        background-color: #000000;
+      }
+
+      &::after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 15px;
+        left: 0;
+        transform: rotate(-45deg);
+        background-color: #000000;
+      }
+    }
+  }
+  .home{
+    padding: 50px 0;
+    background: none;
+    &__row{
+      column-gap: 0;
+    }
+    &__column{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+
+    }
+    &__title{
+      font-size: 40px;
+    }
+    &__subtitle{
+      font-size: 26px;
+    }
+    &__img{
+      width: 300px;
+      height: 280px;
+      display: none;
+    }
+    &__btn{
+      width: 135px;
+      height: 52px;
+    }
+  }
+  .service{
+    padding: 60px 0 66px;
+    &__row2{
+      column-gap: 30px;
+    }
+    &__column2-title{
+      font-size: 32px;
+      white-space: nowrap;
+    }
+    &__subtitle{
+      font-size: 22px;
+    }
+    &__column2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    &__column2-img{
+      display: none;
+    }
+    &__column2-subtitle2{
+      font-size: 24px;
+    }
+  }
+  .video{
+    padding: 62.5px 0 64px;
+    &__subtitle{
+      font-size: 15px;
+    }
+    &__film{
+      transform: translateX(-25%);
+    }
+  }
+  .features{
+    padding: 60.5px 0 60px;
+    &__row{
+      column-gap: 40px;
+    }
+    &__sub{
+      font-size: 18px;
+    }
+    &__row{
+      text-align: center;
+      justify-content: center;
+    }
+  }
+  .logoipsum{
+    padding: 51px 0 50px;
+    &__sub{
+      font-size: 25px;
+    }
+  }
+  .people{
+    padding: 60px 0;
+    &__title{
+      font-size: 28px;
+    }
+  }
+  .footer{
+    padding: 36px 0 39px;
+    &__row{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    &__title{
+      font-size: 19px;
+    }
+    &__menu-list{
+      white-space: nowrap;
+      font-size: 14px;
+    }
+    &__row2{
+      flex-wrap: wrap;
+    }
+    &__menu2{
+      white-space: nowrap;
+    }
+    &__list2{
+      font-size: 11px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__menu3{
+      margin: 20px 0 20px 50%;
+    }
+  }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+  .container{
+     width: 100%;
+     max-width: 321px;
+     margin: 0 auto;
+   }
+  .header{
+    margin: 50px 0 0;
+    position: relative;
+    &__into{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 25px;
+    }
+    &__menu{
+      display: none;
+    }
+    &__btn{
+      height: 40px;
+    }
+    &__burger{
+      display: block;
+      transform: translate(30%,0);
+      position: absolute;
+      top: -25px;
+      right: 0;
+    }
+
+  }
+  .overlay{
+    &__popup{
+      width: 300px;
+      height: 500px;
+    }
+    &__btn{
+      transform: translateX(-5%);
+    }
+    &__close{
+      top: 25px;
+      right: 30px;
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .burger{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    display: none;
+    left: 0;
+    top: 0;
+    &__popup{
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #fff;
+      width: 200px;
+      height: 400px;
+    }
+    &__close {
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      cursor: pointer;
+
+      &::before {
+        content: '';
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 15px;
+        left: 0;
+        transform: rotate(45deg);
+        background-color: #000000;
+      }
+
+      &::after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 15px;
+        left: 0;
+        transform: rotate(-45deg);
+        background-color: #000000;
+      }
+    }
+  }
+  .home{
+    padding: 50px 0;
+    background: none;
+    &__row{
+      column-gap: 0;
+    }
+    &__column{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+
+    }
+    &__title{
+      font-size: 34px;
+    }
+    &__subtitle{
+      font-size: 24px;
+    }
+    &__img{
+      width: 300px;
+      height: 280px;
+      display: none;
+    }
+    &__btn{
+      width: 135px;
+      height: 52px;
+    }
+  }
+  .service{
+    padding: 30px 0 66px;
+    &__row2{
+      column-gap: 0;
+    }
+    &__column2-title{
+      font-size: 32px;
+      white-space: nowrap;
+    }
+    &__subtitle{
+      font-size: 22px;
+    }
+    &__column2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    &__column2-subtitle{
+      &::before{
+        content: '';
+        display: none;
+      }
+    }
+    &__column2-img{
+      display: none;
+    }
+    &__column2-subtitle2{
+      font-size: 21px;
+    }
+  }
+  .video{
+    padding: 62.5px 0 64px;
+    &__subtitle{
+      font-size: 12px;
+    }
+    &__film{
+      transform: translateX(-30%);
+    }
+  }
+  .features{
+    padding: 60.5px 0 60px;
+    &__row{
+      column-gap: 40px;
+    }
+    &__title{
+      font-size: 28px;
+    }
+    &__sub{
+      font-size: 16px;
+    }
+    &__row{
+      text-align: center;
+      justify-content: center;
+    }
+  }
+  .logoipsum{
+    padding: 51px 0 50px;
+    &__sub{
+      font-size: 25px;
+    }
+  }
+  .people{
+    padding: 60px 0;
+    &__title{
+      font-size: 25px;
+    }
+  }
+  .footer{
+    padding: 36px 0 39px;
+    &__row{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    &__title{
+      font-size: 19px;
+    }
+    &__menu-list{
+      white-space: nowrap;
+      font-size: 14px;
+    }
+    &__row2{
+      column-gap: 80px;
+    }
+    &__menu2{
+      flex-direction: column;
+      column-gap: 0;
+      row-gap: 25px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    &__list2{
+      margin-left: 10px;
+      font-size: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    &__menu3{
+      flex-direction: column;
+      margin: 20px 0 20px 50%;
+      row-gap: 30px;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .container{
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+  .header{
+    margin: 50px 0 0;
+    position: relative;
+    &__into{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 25px;
+    }
+    &__menu{
+      display: none;
+    }
+    &__btn{
+      height: 40px;
+    }
+    &__burger{
+      display: block;
+      transform: translate(30%,0);
+      position: absolute;
+      top: -25px;
+      right: 0;
+    }
+
+  }
+  .overlay{
+    &__popup{
+      width: 275px;
+      height: 500px;
+    }
+    &__input{
+      width: 250px;
+    }
+    &__btn{
+      transform: translateX(-10%);
+    }
+    &__close{
+      top: 25px;
+      right: 30px;
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .burger{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    display: none;
+    left: 0;
+    top: 0;
+    &__popup{
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: #fff;
+      width: 200px;
+      height: 400px;
+    }
+    &__close {
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      cursor: pointer;
+
+      &::before {
+        content: '';
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 15px;
+        left: 0;
+        transform: rotate(45deg);
+        background-color: #000000;
+      }
+
+      &::after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 15px;
+        left: 0;
+        transform: rotate(-45deg);
+        background-color: #000000;
+      }
+    }
+  }
+  .home{
+    padding: 50px 0;
+    background: none;
+    &__row{
+      column-gap: 0;
+    }
+    &__column{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+
+    }
+    &__title{
+      font-size: 30px;
+    }
+    &__subtitle{
+      font-size: 22px;
+    }
+    &__img{
+      width: 300px;
+      height: 280px;
+      display: none;
+    }
+    &__btn{
+      width: 135px;
+      height: 52px;
+    }
+  }
+  .service{
+    padding: 30px 0 66px;
+    &__row2{
+      column-gap: 0;
+    }
+    &__title{
+      font-size: 28px;
+    }
+    &__column2-title{
+      font-size: 32px;
+      white-space: nowrap;
+    }
+    &__subtitle{
+      font-size: 20px;
+    }
+    &__column2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    &__column2-subtitle{
+      &::before{
+        content: '';
+        display: none;
+      }
+    }
+    &__column2-img{
+      display: none;
+    }
+    &__column2-subtitle2{
+      font-size: 19px;
+    }
+  }
+  .video{
+    padding: 62.5px 0 64px;
+    &__title{
+      font-size: 28px;
+    }
+    &__subtitle{
+      font-size: 11px;
+    }
+    &__film{
+      transform: translateX(-35%);
+    }
+  }
+  .features{
+    padding: 60.5px 0 60px;
+    &__row{
+      column-gap: 40px;
+    }
+    &__title{
+      font-size: 28px;
+    }
+    &__sub{
+      font-size: 15px;
+    }
+    &__row{
+      text-align: center;
+      justify-content: center;
+    }
+    &__card-sub{
+      font-size: 14px;
+    }
+  }
+  .logoipsum{
+    padding: 51px 0 50px;
+    &__sub{
+      font-size: 23px;
+    }
+  }
+  .people{
+    padding: 60px 0;
+    &__title{
+      font-size: 22px;
+    }
+  }
+  .footer{
+    padding: 36px 0 39px;
+    &__row{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    &__title{
+      font-size: 19px;
+    }
+    &__menu-list{
+      white-space: nowrap;
+      font-size: 14px;
+    }
+    &__row2{
+      column-gap: 80px;
+    }
+    &__menu2{
+      flex-direction: column;
+      column-gap: 0;
+      row-gap: 25px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    &__list2{
+      margin-left: 10px;
+      font-size: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    &__menu3{
+      flex-direction: column;
+      margin: 20px 0 20px 50%;
+      row-gap: 30px;
+    }
+  }
+}

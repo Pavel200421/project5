@@ -28,7 +28,7 @@
   &__menu {
     list-style-type: none;
     display: flex;
-    column-gap: 45px;
+    column-gap: 50px;
   }
 
   &__list {
@@ -68,4 +68,10 @@
 
     }
   }
+&__burger{
+  display: none;
+  cursor: pointer;
+  width: 120px;
+
+}
 }

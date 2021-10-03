@@ -88,13 +88,15 @@
     color: $black;
     white-space: nowrap;
   }
-  &__row2{
+
+  &__row2 {
     display: flex;
     column-gap: 245px;
     margin-top: 120px;
   }
-  &__column2{
-    &-title{
+
+  &__column2 {
+    &-title {
       font-style: normal;
       font-weight: bold;
       font-size: 38px;
@@ -102,7 +104,8 @@
       color: $black;
       margin-bottom: 10px;
     }
-    &-subtitle{
+
+    &-subtitle {
       margin-bottom: 20px;
       font-style: normal;
       font-weight: 500;
@@ -110,7 +113,8 @@
       line-height: 160%;
       color: $black;
       position: relative;
-      &::before{
+
+      &::before {
         content: '';
         width: 61px;
         height: 1px;
@@ -120,7 +124,8 @@
         top: 17px;
       }
     }
-    &-subtitle2{
+
+    &-subtitle2 {
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
@@ -128,7 +133,8 @@
       color: #252626;
       margin-bottom: 35px;
     }
-    &-btn{
+
+    &-btn {
       background: transparent;
       border: 2px solid #35AFBF;
       width: 149px;
@@ -136,28 +142,30 @@
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
-      line-height: 120%;
       color: #35AFBF;
       cursor: pointer;
       transition: .8s;
-      &:hover{
+
+      &:hover {
         transition: .8s;
         background-color: #35AFBF;
         color: white;
         border: #35AFBF solid 2px;
       }
     }
-    &-img{
+
+    &-img {
       width: 400px;
       height: 418px;
     }
   }
-  &__dots{
+
+  &__dots {
     margin-top: 50px;
   }
-  &__owl-buttons{
+
+  &__owl-buttons {
     background-color: #35AFBF !important;
     color: #FFFFFF !important;
   }
-  
 }

@@ -12,6 +12,9 @@ $(document).ready(function() {
             320: {
                 items: 1,
             },
+            280: {
+                items: 1,
+            }
         }
 
     });
@@ -48,5 +51,11 @@ $(document).ready(function() {
         })
     $(".overlay__close").on('click', function () {
     $(".overlay").fadeOut('slow')
+    })
+    $('.header__burger').on('click', function () {
+        $('.burger').fadeIn('slow')
+    })
+    $('.burger__close').on('click',function () {
+        $('.burger').fadeOut('slow')
     })
 });

@@ -1,0 +1,27 @@
+.burger{
+  display: none;
+  cursor: pointer;
+  &__title{
+    text-align: center;
+    font-size: 26px;
+    padding-top: 20px;
+  }
+  &__menu{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 20px;
+    align-items: center;
+  }
+  &__list{
+    font-size: 19px;
+    position: relative;
+    display: block;
+    transition: .5s;
+    &:hover{
+      border-bottom: #35AFBF 1px solid;
+      transition: .5s;
+     }
+    }
+  }
