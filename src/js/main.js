@@ -58,4 +58,7 @@ $(document).ready(function() {
     $('.burger__close').on('click',function () {
         $('.burger').fadeOut('slow')
     })
+    $(".header__link").on('click', function () {
+        $(".burger").fadeOut('slow')
+    })
 });
