@@ -685,7 +685,7 @@
   transition: 0.5s;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 991px) and (max-width: 1199px) {
   .container {
     width: 100%;
     max-width: 882px;
@@ -762,7 +762,7 @@
     font-size: 14px;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
   .container {
     max-width: 668px;
     width: 100%;
@@ -1149,10 +1149,11 @@
   }
   .header__burger {
     display: block;
-    transform: translate(30%, 0);
+    transform: translate(-50%, 0);
     position: absolute;
     top: -25px;
     right: 0;
+    width: 24px;
   }
 
   .overlay__popup {
@@ -1360,12 +1361,12 @@
 @media (max-width: 320px) {
   .container {
     width: 100%;
-    max-width: 280px;
+    max-width: 320px;
     margin: 0 auto;
   }
 
   .header {
-    margin: 50px 0 0;
+    margin: 40px 0 50px 0;
     position: relative;
   }
   .header__into {
@@ -1373,6 +1374,10 @@
     flex-direction: column;
     align-items: center;
     row-gap: 25px;
+  }
+  .header__burger {
+    margin: 15px 30px;
+    width: 24px;
   }
   .header__menu {
     display: none;

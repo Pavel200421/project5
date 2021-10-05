@@ -1,7 +1,7 @@
 @media (min-width: 1200px) {
 
 }
-@media (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 991px) and (max-width: 1199px){
 .container{
   width: 100%;
   max-width: 882px;
@@ -72,7 +72,7 @@
     }
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
 .container{
   max-width: 668px;
   width: 100%;
@@ -447,10 +447,11 @@
     }
     &__burger{
       display: block;
-      transform: translate(30%,0);
+      transform: translate(-50%,0);
       position: absolute;
       top: -25px;
       right: 0;
+      width: 24px;
     }
 
   }
@@ -658,11 +659,11 @@
 @media (max-width: 320px) {
   .container{
     width: 100%;
-    max-width: 280px;
+    max-width: 320px;
     margin: 0 auto;
   }
   .header{
-    margin: 50px 0 0;
+    margin: 40px 0 50px 0;
     position: relative;
     &__into{
       display: flex;
@@ -670,11 +671,16 @@
       align-items: center;
       row-gap: 25px;
     }
+    &__burger{
+      margin: 15px 30px;
+      width: 24px;
+    }
     &__menu{
       display: none;
     }
     &__btn{
       height: 40px;
+
     }
     &__burger{
       display: block;
