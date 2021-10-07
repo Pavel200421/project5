@@ -797,12 +797,20 @@
   .footer__list2 {
     font-size: 14px;
   }
+
+  .top {
+    top: 550px;
+  }
 }
 @media (min-width: 767px) and (max-width: 991px) {
   .container {
     max-width: 668px;
     width: 100%;
     margin: 0 auto;
+  }
+
+  .top {
+    top: 550px;
   }
 
   .header {
@@ -967,6 +975,10 @@
     width: 100%;
     max-width: 450px;
     margin: 0 auto;
+  }
+
+  .top {
+    top: 550px;
   }
 
   .header {
@@ -1165,6 +1177,10 @@
     width: 100%;
     max-width: 321px;
     margin: 0 auto;
+  }
+
+  .top {
+    display: none;
   }
 
   .header {
@@ -1399,6 +1415,10 @@
     width: 100%;
     max-width: 320px;
     margin: 0 auto;
+  }
+
+  .top {
+    display: none;
   }
 
   .header {

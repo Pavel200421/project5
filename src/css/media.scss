@@ -71,12 +71,18 @@
       font-size: 14px;
     }
   }
+  .top{
+    top: 550px;
+  }
 }
 @media (min-width: 767px) and (max-width: 991px) {
   .container{
     max-width: 668px;
     width: 100%;
     margin: 0 auto;
+  }
+  .top{
+    top: 550px;
   }
   .header{
     margin: 50px 0 0;
@@ -235,6 +241,9 @@
     width: 100%;
     max-width: 450px;
     margin: 0 auto;
+  }
+  .top{
+    top: 550px;
   }
   .header{
     margin: 50px 0 0;
@@ -429,6 +438,9 @@
     width: 100%;
     max-width: 321px;
     margin: 0 auto;
+  }
+  .top{
+   display: none;
   }
   .header{
     margin: 50px 0 0;
@@ -661,6 +673,9 @@
     width: 100%;
     max-width: 320px;
     margin: 0 auto;
+  }
+  .top{
+    display: none;
   }
   .header{
     margin: 40px 0 50px 0;
