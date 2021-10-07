@@ -1,4 +1,4 @@
-$(document).ready(function() {
+
     var owl = $('.owl-carousel');
     owl.owlCarousel({
         dotsContainer: '#carousel-custom-dots',
@@ -21,13 +21,13 @@ $(document).ready(function() {
 // Go to the next item
     $('.owl-next').click(function () {
         owl.trigger('next.owl.carousel');
-    })
+    });
 // Go to the previous item
     $('.owl-prev').click(function () {
         // With optional speed parameter
         // Parameters has to be in square bracket '[]'
         owl.trigger('prev.owl.carousel', [300]);
-    })
+    });
     $('.owl-dot').click(function () {
         owl.trigger('to.owl.carousel', [$(this).index(), 300]);
     });
@@ -48,17 +48,16 @@ $(document).ready(function() {
     });
     $('.header__btn').on('click', function () {
         $('.overlay').fadeIn('slow')
-        })
+        });
     $(".overlay__close").on('click', function () {
     $(".overlay").fadeOut('slow')
-    })
+    });
     $('.header__burger').on('click', function () {
         $('.burger').fadeIn('slow')
-    })
+    });
     $('.burger__close').on('click',function () {
         $('.burger').fadeOut('slow')
-    })
+    });
     $(".header__link").on('click', function () {
         $(".burger").fadeOut('slow')
-    })
-});
+    });

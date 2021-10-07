@@ -88,7 +88,7 @@
 
 .home {
   padding: 90px 0;
-  background: url("../images/home/Background.png") center/cover no-repeat;
+  background: url("../images/background.webp") center/cover no-repeat;
 }
 .home__row {
   display: flex;
@@ -290,7 +290,7 @@
 
 .video {
   padding: 125px 0 128px;
-  background: url("../images/video.png") center/cover no-repeat;
+  background: url("../images/video.webp") center/cover no-repeat;
 }
 .video__title {
   font-style: normal;
