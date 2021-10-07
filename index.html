@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-<header class="header">
+<header id="header" class="header">
     <div class="container">
         <div class="header__into">
             <h1 class="header__logo"><span class="header__logo_span"></span>Maker</h1>
@@ -31,7 +31,6 @@
                 <path d="M0.571472 0H23.4286V2.28571H0.571472V0ZM6.28576 5.71429H23.4286V8H6.28576V5.71429ZM13.4286 11.4286H23.4286V13.7143H13.4286V11.4286Z"
                       fill="#252B42"/>
             </svg>
-
         </div>
     </div>
     <div class="burger">
@@ -69,7 +68,9 @@
             <div class="overlay__close"></div>
         </div>
     </div>
-
+    <div class="top">
+        <a href="#header" class="top__adress"></a>
+    </div>
 </header>
 <main>
     <section class="home">
@@ -411,20 +412,5 @@
 <script src="src/js/jquery-3.6.0.min.js"></script>
 <script src="src/js/owl.carousel.min.js"></script>
 <script src="src/js/main.js"></script>
-<script>if (!window._teletypeWidget) {
-    window._teletypeWidget = window._teletypeWidget || {};
-    !function () {
-        var t = document.getElementsByTagName("app-teletype-root");
-        if (t.length > 0 && _teletypeWidget.init) return;
-        var d = new Date().getTime();
-        var n = document.createElement("script"), c = document.getElementsByTagName("script")[0];
-        n.id = "teletype-widget-embed", n.src = "https://widget.teletype.app/init.js?_=" + d, n.async = !0, n.setAttribute("data-embed-version", "0.1");
-        c.parentNode.insertBefore(n, c);
-    }();
-    document.addEventListener("teletype.ready", function () {
-        console.log("Teletype ready")
-    });
-    window.teletypeExternalId = "J54uGfVu9M-8bZPV96mzJm0N-U2Z_HGTmWb-tpjJzsNo8nyH9gwOfZGDydduz4TC";
-}</script>
 </body>
 </html>

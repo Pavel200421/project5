@@ -686,6 +686,41 @@
   transition: 0.5s;
 }
 
+.top {
+  position: fixed;
+  top: 650px;
+  right: 50px;
+  z-index: 2;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+}
+.top__adress {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+}
+.top__adress::before {
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 2px;
+  background-color: black;
+  top: 49%;
+  left: 38%;
+  transform: translate(0, -50%) rotate(35deg);
+}
+.top__adress::after {
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 2px;
+  background-color: black;
+  top: 49%;
+  right: 38%;
+  transform: translate(0, -50%) rotate(-35deg);
+}
+
 @media (min-width: 991px) and (max-width: 1199px) {
   .container {
     width: 100%;

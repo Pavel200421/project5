@@ -2,11 +2,11 @@
 
 }
 @media (min-width: 991px) and (max-width: 1199px){
-.container{
-  width: 100%;
-  max-width: 882px;
-  margin: 0 auto;
-}
+  .container{
+    width: 100%;
+    max-width: 882px;
+    margin: 0 auto;
+  }
   .header{
     margin: 50px 0 0;
     &__btn{
@@ -31,7 +31,7 @@
     }
   }
   .service{
-   padding: 60px 0 66px;
+    padding: 60px 0 66px;
   }
   .features{
     padding: 61px 0 60px;
@@ -73,11 +73,11 @@
   }
 }
 @media (min-width: 767px) and (max-width: 991px) {
-.container{
-  max-width: 668px;
-  width: 100%;
-  margin: 0 auto;
-}
+  .container{
+    max-width: 668px;
+    width: 100%;
+    margin: 0 auto;
+  }
   .header{
     margin: 50px 0 0;
     position: relative;
@@ -183,10 +183,10 @@
     &__row{
       column-gap: 40px;
     }
-   &__sub{
-     font-size: 13px;
+    &__sub{
+      font-size: 13px;
 
-   }
+    }
   }
   .logoipsum{
     padding: 51px 0 50px;
@@ -426,10 +426,10 @@
 }
 @media (min-width: 321px) and (max-width: 480px) {
   .container{
-     width: 100%;
-     max-width: 321px;
-     margin: 0 auto;
-   }
+    width: 100%;
+    max-width: 321px;
+    margin: 0 auto;
+  }
   .header{
     margin: 50px 0 0;
     position: relative;
